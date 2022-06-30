@@ -1,0 +1,95 @@
+.box1{
+    width:100%;
+    height:200px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    
+}
+.box2{
+    background-color: aqua;
+   width:75%;
+   height: 50px;
+   display: flex;
+   flex-direction:row;
+  margin-top: 50px;
+  margin-left: 10%;
+border-radius: 10px;
+}
+.image{
+    padding: 5px;
+}
+.box2 ul{
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+.box2 li{
+    display: flex;
+    width: 18%; 
+    align-items: center;
+    text-align: center;
+
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    width:85%;
+    margin-top: 20px;
+    height: 200px;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+.box3 input{
+    width:60%;
+    height: 40px;
+    border: none;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+.box3 button{
+    width: 10%;
+    margin-left: 20p;
+    border: none;
+    background-color: #d87070;
+    padding-right: 30px;
+    align-content: center;
+}
+.row1_1{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 15%;
+    background-color: aquamarine;
+    border-radius: 15px;
+   
+}
+.profile button{
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+.detail1{
+    padding-left: 30px;
+}
+.detail2{
+    padding-left: 20px;
+
+    
+}
+
+    
+.row2{
+    width:75%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    
+}

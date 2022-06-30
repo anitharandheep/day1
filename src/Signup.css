@@ -1,0 +1,71 @@
+.box{
+    background-color: grey;
+    width:50%;
+    height:250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    position: fixed;
+    bottom: 30%;
+    right: 40%;
+   width:30%;
+    
+}
+.row1{
+    
+    padding-bottom: 10px;
+margin-bottom: 10px;
+}
+.row1 button{
+    background-color: gold;
+    border: none;
+ 
+
+}
+.row2{display:flex;
+    flex-direction:column;
+
+}
+.row3{
+    display:flex;
+    flex-direction:column;
+    margin-bottom: 10px;
+}
+
+.row5 button{
+    background-color: red;
+    border: none;
+    color: aliceblue;
+    width: 100%;
+    border-radius: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+.row5 button:hover{background-color: aqua;
+color: black;
+}
+.row6 {
+    border: none;
+    display:flex;
+    flex-direction:row;
+    width:100%
+}
+.buttonleft {
+    width: 50% ;
+   text-align: right ;
+   border-right: 1px solid black;
+     
+}
+.buttonright {
+    width: 50%;
+}
+.buttonleft button {
+background-color: transparent;
+border: none;
+}
+.buttonright button{
+    background-color:transparent;
+    border: none; ;
+}
